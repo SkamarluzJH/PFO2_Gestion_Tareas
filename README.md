@@ -42,18 +42,25 @@ curl -b cookies.txt http://127.0.0.1:5000/tareas
 ## Capturas de pantalla
 
 ### Registro exitoso (201) y usuario existente (409)
+
 ![Registro exitoso](docs/capturas/registro.png)
+
 ![Usuario existe](docs/capturas/usuario_existe.png)
 
 ### Login exitoso (200) y login fallido (401)
+
 ![Login exitoso](docs/capturas/credencial_correcta.png)
+
 ![Login incorrecto](docs/capturas/credencial_incorrecta.png)
 
 ### GET /tareas con sesión iniciada y sin loguear
+
 ![Tareas](docs/capturas/html.png)
+
 ![Tareas sin loguear](docs/capturas/sin_loguear.png)
 
 ### Contraseña hasheada en la base de datos
+
 ![Hash en la BD](docs/capturas/hash_en_bd.png)
 
 ## GitHub Pages
