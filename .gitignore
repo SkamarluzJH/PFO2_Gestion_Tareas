@@ -1,0 +1,5 @@
+.venv/
+.venv-1/
+*.db
+__pycache__/
+cookies.txt
